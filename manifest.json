@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "Spotify Pause Extension",
+    "description": "Pauses spotify in tab when another tab starts playing audio",
+    "version": "1.0",
+    "action": {
+      "default_popup": "/templates/index.html",
+      "default_icon": "/static/icon.png"
+    },
+    "permissions": [
+        "tabs",
+        "activeTab"
+    ]
+  }
